@@ -9,7 +9,7 @@ from discord.ext import commands
 from discord import app_commands
 import sqlite3
 
-TOKEN ="MTUxNDcwMjAxNDU1MzI2NDE5OA.GTWHoV.DXbitcLDcFlHpSUyka_y_yneOEV_959xuiBiu4" 
+TOKEN ="MTUxNTM5MDAxNDM1ODQyNTczMw.GWzdG7.HVsow8wu7UfGYjnldy6-NjxGPcfdBR2QqR1R1I" 
 # INTENTS
 intents = discord.Intents.default()
 intents.members = True
