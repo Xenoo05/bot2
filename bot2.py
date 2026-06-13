@@ -292,4 +292,6 @@ async def leaderboard(interaction: discord.Interaction):
 
 
 # AVVIO BOT
+print("TOKEN =", repr(TOKEN))
+print("LUNGHEZZA =", len(TOKEN) if TOKEN else "None")
 bot.run(TOKEN)
