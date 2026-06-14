@@ -11,18 +11,8 @@ import sqlite3
 
 TOKEN ="MTUxNTM5MDAxNDM1ODQyNTczMw.G35Yhw.zLKmgMq9VSYHUoshkfA2J0aRz133PmnB03xak0"
 
-if os.getenv("DISABLE_BOT") == "true":
-    print("Bot disattivato")
-    exit()
 
-import discord
-from discord.ext import commands
-from discord import app_commands
-import sqlite3
-
-TOKEN ="MTUxNTM5MDAxNDM1ODQyNTczMw.GIkSyl.0T-7mE6PoG-TqCIZIv-s3ZYQWqhfBtIW598whc"
- 
-# INTENTS
+ # INTENTS
 intents = discord.Intents.default()
 intents.members = True
 
@@ -592,4 +582,4 @@ async def leaderboard(interaction: discord.Interaction):
 # AVVIO BOT
 print("TOKEN =", repr(TOKEN))
 print("LUNGHEZZA =", len(TOKEN) if TOKEN else "None")
-bot.run(MTUxNTM5MDAxNDM1ODQyNTczMw.G35Yhw.zLKmgMq9VSYHUoshkfA2J0aRz133PmnB03xak0)
+bot.run(TOKEN)
