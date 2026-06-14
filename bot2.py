@@ -9,7 +9,7 @@ from discord.ext import commands
 from discord import app_commands
 import sqlite3
 
-TOKEN ="MTUxNTM5MDAxNDM1ODQyNTczMw.GvwEUd.E7P0LSCB7XacPJE6j_oxAl1bCcZSwHHQu8QYvk"
+TOKEN ="MTUxNTM5MDAxNDM1ODQyNTczMw.GIkSyl.0T-7mE6PoG-TqCIZIv-s3ZYQWqhfBtIW598whc"
  
 # INTENTS
 intents = discord.Intents.default()
